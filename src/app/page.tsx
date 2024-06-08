@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[100vh] relative z-[4000]">
+        <div className="h-[100vh] relative z-[4000] bg-black">
           <video className="w-full h-full object-fill" autoPlay muted loop>
             <source src={`/videos/home-video.mp4`} type="video/mp4" />
           </video>

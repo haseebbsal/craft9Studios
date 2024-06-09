@@ -14,8 +14,7 @@ export default function Loader() {
             const intervalId = setInterval(() => {
                 if (count == 101) {
                     clearInterval(intervalId)
-                    document.getElementsByTagName('body')[0].style.overflowX = 'hidden'
-                    document.getElementsByTagName('body')[0].style.overflowY = 'visible'
+                    document.getElementById('content')!.style.display='block'
                 }
                 loaderRef.current!.style.transform = `translateX(${count}%)`
                 count+=1

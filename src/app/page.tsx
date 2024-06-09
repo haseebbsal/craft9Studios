@@ -2,7 +2,6 @@
 
 import { Italiana } from "next/font/google";
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const italiana=Italiana({
   weight: "400",
   subsets:['latin']
@@ -10,18 +9,7 @@ const italiana=Italiana({
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-28 mb-20">
-        <div className="bg-black p-4 fixed flex justify-center z-[1000] w-full">
-          <div className="flex justify-between w-[70%] items-center">
-            <p className="text-2xl">a-tom.</p>
-            <div className="flex gap-8">
-              <p>works</p>
-              <p>about</p>
-              <p>case studies</p>
-              <p>contact</p>
-            </div>
-          </div>
-        </div>
+      <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
           <video className="w-full h-full object-fill" autoPlay muted loop>
             <source src={`/videos/home-video.mp4`} type="video/mp4" />
@@ -139,27 +127,6 @@ export default function Home() {
         </div>
 
         <div className="h-[0.1rem] bg-gray-400"></div>
-        <div>
-          <div className="w-[95%] m-auto flex flex-col gap-2 ">
-            <div className="flex justify-between border-b-[0.1rem] border-gray-400">
-              <p className="text-4xl">a-tom.</p>
-              <div className="flex gap-2">
-                <FaFacebook className="text-2xl" />
-                <FaInstagram className="text-2xl" />
-                <FaLinkedin className="text-2xl" />
-                <FaTwitter className="text-2xl" />
-              </div>
-            </div>
-            <div className="justify-between flex">
-              <div className="flex gap-16 text-sm text-gray-400">
-                <p>About</p>
-                <p>Contact</p>
-                <p>Terms & Privacy</p>
-              </div>
-              <p className="text-sm text-gray-400 ">copyright 2023</p>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

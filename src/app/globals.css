@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* 
 .loader{
     animation: centerToRight 2s;
     animation-delay: 3s;
@@ -17,4 +17,4 @@
         background-color: blue !important;
         transform: translateX(100%);
     }
-}
+} */

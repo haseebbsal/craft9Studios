@@ -5,11 +5,24 @@ import { useEffect, useRef } from "react";
 
 export default function Loader() {
     const loaderRef: React.RefObject<HTMLDivElement> =useRef() as any
-    useEffect(() => { 
+    useEffect(() => {
+        const intervalId=setInterval(() => {
+            
+        },)
         setTimeout(() => {
-            document.getElementsByTagName('body')[0].style.overflowX = 'hidden'
-            document.getElementsByTagName('body')[0].style.overflowY = 'visible'
-            loaderRef.current!.style.transform ='translateX(100%)'
+            let count = 0;
+            const intervalId = setInterval(() => {
+                if (count == 101) {
+                    clearInterval(intervalId)
+                    document.getElementsByTagName('body')[0].style.overflowX = 'hidden'
+                    document.getElementsByTagName('body')[0].style.overflowY = 'visible'
+                }
+                loaderRef.current!.style.transform = `translateX(${count}%)`
+                count+=1
+            },5)
+            // document.getElementsByTagName('body')[0].style.overflowX = 'hidden'
+            // document.getElementsByTagName('body')[0].style.overflowY = 'visible'
+            // loaderRef.current!.style.transform ='translateX(100%)'
         },2000)
     },[])
     return (

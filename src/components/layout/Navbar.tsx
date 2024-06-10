@@ -20,9 +20,9 @@ export default function Navbar() {
                         })} className="flex gap-2 items-center">works <MdKeyboardArrowDown /></button>
                         <div className={`${dropOption=='1'?'flex':'hidden'} flex-col absolute gap-2 bg-[#282828] p-4 top-[2.5rem] rounded-md `}>
                             <Link className="text-sm" href={'/branding'}>branding</Link>
-                            <Link className="text-sm" href={'/branding'}>branding</Link>
-                            <Link className="text-sm" href={'/branding'}>branding</Link>
-                            <Link className="text-sm" href={'/branding'}>branding</Link>
+                            <Link className="text-sm" href={'/images'}>images</Link>
+                            <Link className="text-sm" href={'/video'}>video</Link>
+                            <Link className="text-sm" href={'/products'}>products</Link>
                         </div>
                     </div>
                     <Link className={`${pathname=='/about'?'text-blue-400':'text-white'}`} href={'/about'}>about</Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
                             return '2'
                         })} className="flex gap-2 items-center">case studies <MdKeyboardArrowDown /></button>
                         <div className={`${dropOption == '2' ? 'flex' : 'hidden'} flex-col absolute gap-2 bg-[#282828] p-4 top-[2.5rem] rounded-md w-full`}>
-                            <Link className="text-sm text-right" href={'/branding'}>asuka</Link>
+                            <Link className="text-sm text-right" href={'/asuka'}>asuka</Link>
                         </div>
                     </div>
                     <Link className={`${pathname == '/contact' ? 'text-blue-400' : 'text-white'}`} href={'/contact'}>contact</Link>

@@ -12,6 +12,8 @@ export default function Home() {
     document.getElementById('video')!.onended = (e:any) => {
       e.target.play()
     }
+    const video:any = document.getElementById('video')!
+    video.play()
   },[])
   return (
     <>

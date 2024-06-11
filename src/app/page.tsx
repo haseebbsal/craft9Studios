@@ -8,13 +8,6 @@ const italiana=Italiana({
   subsets:['latin']
 })
 export default function Home() {
-  useEffect(() => {
-    document.getElementById('video')!.onended = (e:any) => {
-      e.target.play()
-    }
-    const video:any = document.getElementById('video')!
-    video.play()
-  },[])
   return (
     <>
       <div className="flex flex-col gap-28">

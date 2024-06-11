@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
-          <video className="w-full h-full object-fill" autoPlay muted loop>
+          <video className="w-full h-full object-contain" autoPlay muted loop>
             <source src={`/videos/Home Video Banner.mp4`} type="video/mp4" />
           </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>

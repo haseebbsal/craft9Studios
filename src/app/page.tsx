@@ -12,12 +12,12 @@ export default function Home() {
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
           <video className="w-full h-full object-fill" autoPlay muted loop>
-            <source src={`/videos/home-video.mp4`} type="video/mp4" />
+            <source src={`/videos/Home Video Banner.mp4`} type="video/mp4" />
           </video>
-          <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
+          {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>
             <p>for tomorrow</p>
-          </div>
+          </div> */}
         </div>
         <div className="flex gap-16 justify-center">
           <div className="flex flex-col gap-2 text-white text-3xl">

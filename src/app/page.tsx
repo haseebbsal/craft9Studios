@@ -2,16 +2,22 @@
 
 import { Italiana } from "next/font/google";
 import Image from "next/image";
+import { useEffect } from "react";
 const italiana=Italiana({
   weight: "400",
   subsets:['latin']
 })
 export default function Home() {
+  useEffect(() => {
+    document.getElementById('video')!.onended = (e:any) => {
+      e.target.play()
+    }
+  },[])
   return (
     <>
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
-          <video className="w-full h-full object-contain" autoPlay muted loop>
+          <video id='video' className="w-full h-full object-contain  " autoPlay muted>
             <source src={`/videos/Home Video Banner.mp4`} type="video/mp4" />
           </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>

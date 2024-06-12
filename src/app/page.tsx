@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
           <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
-            <source src={`/videos/Home Video Banner.mp4`} type="video/mp4" />
+            <source src={`/videos/Website Banner.mp4`} type="video/mp4" />
           </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>
@@ -26,8 +26,8 @@ export default function Home() {
             <p className="text-center">Branding</p>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <p className="text-center">Branding</p>
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/images.png`} width={200} height={200} alt="branding" /></div>
+            <p className="text-center">Creatives</p>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/Website Banner.png`} width={200} height={200} alt="branding" /></div>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">
             <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/videos.png`} width={200} height={200} alt="branding" /></div>

@@ -12,8 +12,8 @@ export default function Home() {
     <>
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
-          <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
-            <source src={`/videos/Website Banner.mp4`} type="video/mp4" />
+          <video id='video' className="w-full h-full object-cover  " autoPlay muted playsInline loop>
+            <source src={`/videos/Banner Video.mp4`} type="video/mp4" />
           </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>

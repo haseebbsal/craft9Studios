@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
-          <Image className="w-full h-full" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/>
+          <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/>
           {/* <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
             <source src={`/videos/Banner Video.mp4`} type="video/mp4" />
           </video> */}

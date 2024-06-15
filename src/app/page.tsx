@@ -1,8 +1,5 @@
-'use client'
-
 import { Italiana } from "next/font/google";
 import Image from "next/image";
-import { useEffect } from "react";
 const italiana=Italiana({
   weight: "400",
   subsets:['latin']

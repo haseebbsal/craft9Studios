@@ -1,20 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-.loader{
-    animation: centerToRight 2s;
-    animation-delay: 3s;
-    transform: translateX(0%);
-}
 
-@keyframes centerToRight{
-    from{
-        background-color: rgb(32, 27, 27) !important;
-        transform: translateX(0%);
-    }
-    to{
-        background-color: blue !important;
-        transform: translateX(100%);
-    }
-} */
+html{
+    scroll-behavior: smooth;
+}

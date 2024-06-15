@@ -9,8 +9,8 @@ export default function AboutUs() {
     return (
         <>
             <div className="flex flex-col gap-20">
-                <div className="pt-40 px-10 flex gap-4 justify-center">
-                    <div className="w-1/2 justify-center flex flex-col gap-2">
+                <div className="sm:pt-40 pt-[9rem] px-8 flex-wrap px-10 flex gap-16 sm:gap-4 justify-center">
+                    <div className="sm:w-1/2 justify-center flex flex-col gap-2">
                         <p className={`${italiana.className} text-5xl`}>Founder</p> 
                         <p className="font-extralight">“The state of the advertising industry is a travesty. A brand’s hopes and dreams  turn into a file on the desk of an underpaid, overworked and over-caffeinated intern. There has to be another way. A way where we can dream together and create together.A tomorrow.We’re not here to play games, we’re here to change the game - of tomorrow, for tomorrow.”</p>
                     </div>

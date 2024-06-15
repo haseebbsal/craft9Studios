@@ -8,11 +8,11 @@ export default function Video() {
     return (
         <>
             <div className="flex flex-col gap-28">
-                <div className="pt-40 flex gap-16 px-44 items-center">
+                <div className="sm:pt-40 pt-[9rem] flex gap-4 px-4 sm:gap-16 flex-wrap sm:px-44  items-center">
                             <div className="">
                                 <p className={`text-8xl ${italiana.className}`}>projects</p>
                             </div>
-                            <div className="flex self-end items-end min-h-[8rem]">
+                            <div className="flex sm:w-1/2  self-end items-end min-h-[8rem]">
                                 <p style={{ fontFamily: 'Manrope, sans-serif' }} className="text-[#dedede] 00">Our in-house production hub comprises of photographers, videographers, producers, directors, editors and animators who together create some great video content.</p>
                             </div> 
                 </div>

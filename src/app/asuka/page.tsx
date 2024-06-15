@@ -8,7 +8,7 @@ export default function Asuka(){
     return (
         <>
             <div className="flex flex-col gap-16">
-                <div className="h-[100vh]">
+                <div className="h-auto">
                     <Image className="w-full h-full" src={'/images/asuka/asuka-banner.png'} alt="asuka banner" width={500} height={800}/>
                 </div>
                 <div className="sm:px-40 px-16 flex flex-col gap-8">

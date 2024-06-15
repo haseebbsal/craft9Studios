@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="flex gap-16 flex-wrap justify-center">
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/branding.png`} width={200} height={200} alt="branding"/></div>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/videos.png`} width={200} height={200} alt="branding"/></div>
             <p className="text-center">Branding</p>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">

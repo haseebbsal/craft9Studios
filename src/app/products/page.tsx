@@ -20,30 +20,30 @@ export default function Products() {
                 </div>
                 <div className="flex justify-center gap-4 flex-wrap">
                     <div className="w-auto h-[30rem]">
-                        <Image  className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual"/>
+                        <Image  className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual"/>
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div><div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                     <div className="w-auto h-[30rem]">
-                        <Image className="w-full h-full object-contain" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
+                        <Image className="w-full h-full object-fill" src={'/images/products/individual.png'} width={100} height={250} alt="individual" />
                     </div>
                 </div>
             </div>

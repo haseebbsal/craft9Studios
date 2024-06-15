@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="bg-black p-4 fixed flex justify-center z-[1000] w-[100vw]">
             <div className="flex justify-center flex-col sm:flex-row sm:justify-between flex-wrap sm:w-[70%] items-center">
                 <Link href={'/'} className="text-2xl">a-tom.</Link>
-                <div className="flex gap-8">
+                <div className="flex gap-4 sm:gap-8">
                     <div className="relative">
                         <button onClick={() => setDropOption((prev) => {
                             if (dropOption == '1') {

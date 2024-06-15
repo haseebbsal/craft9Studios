@@ -7,8 +7,8 @@ export default function Navbar() {
     const [dropOption, setDropOption] = useState<null | '1' | '2'>(null)
     const pathname=usePathname()
     return (
-        <div className="bg-black p-4 fixed flex justify-center z-[1000] w-full">
-            <div className="flex justify-between w-[70%] items-center">
+        <div className="bg-black p-4 fixed flex justify-center z-[1000] w-[100vw]">
+            <div className="flex justify-center flex-col sm:flex-row sm:justify-between flex-wrap sm:w-[70%] items-center">
                 <Link href={'/'} className="text-2xl">a-tom.</Link>
                 <div className="flex gap-8">
                     <div className="relative">

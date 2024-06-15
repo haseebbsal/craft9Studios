@@ -12,7 +12,7 @@ export default function Footer() {
                         <FaTwitter className="text-2xl" />
                     </div>
                 </div>
-                <div className="justify-between flex">
+                <div className="justify-center sm:justify-between flex-wrap flex">
                     <div className="flex gap-16 text-sm text-gray-400">
                         <p>About</p>
                         <p>Contact</p>

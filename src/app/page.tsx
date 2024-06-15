@@ -21,7 +21,7 @@ export default function Home() {
             <p>for tomorrow</p>
           </div> */}
         </div>
-        <div className="flex gap-16 justify-center">
+        <div className="flex gap-16 flex-wrap justify-center">
           <div className="flex flex-col gap-2 text-white text-3xl">
             <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/branding.png`} width={200} height={200} alt="branding"/></div>
             <p className="text-center">Branding</p>
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
         </div>
         <div className='flex flex-col gap-4 items-center'>
-          <div className="flex gap-20" >
+          <div className="flex justify-center flex-wrap gap-4 sm:gap-20" >
             <div className="h-[10rem]">
               <Image className="h-full w-full" src={`/images/home/footerLogos/footer-logo-1.png`} alt="footer1" width={100} height={100} />
             </div>
@@ -108,8 +108,6 @@ export default function Home() {
             <div className="h-[10rem]">
               <Image className="h-full w-full" src={`/images/home/footerLogos/footer-logo-4.png`} alt="footer4" width={100} height={100} />
             </div>
-          </div>
-          <div className="flex gap-20" >
             <div className="h-[10rem]">
               <Image className="h-full w-full" src={`/images/home/footerLogos/footer-logo-1.png`} alt="footer1" width={100} height={100} />
             </div>

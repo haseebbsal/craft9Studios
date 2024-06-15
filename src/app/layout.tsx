@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black text-white mb-20 overflow-x-hidden`}>
-        <div>
+      <body className={`${inter.className} bg-black text-white mb-20`}>
+        <div className="overflow-x-hidden">
           <div id="content" className="hidden">
             <Navbar />
             {children}

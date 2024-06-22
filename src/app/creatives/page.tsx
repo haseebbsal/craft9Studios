@@ -121,7 +121,7 @@ export default function Creatives() {
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="fashion" className="text-end min-w-1/4">fashion</h1>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex flex-wrap justify-center sm:justify-start sm:gap-4">
                         <div className="flex flex-col  gap-4">
                             <div className="w-[16rem] h-[18rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
@@ -135,7 +135,7 @@ export default function Creatives() {
                             <div className="w-[16rem] h-[15rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
                             </div>
-
+                           
                         </div>
                         <div className="flex flex-col gap-4">
                             <div className="w-[16rem] h-[10rem]">
@@ -188,7 +188,7 @@ export default function Creatives() {
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="corporate" className="text-end min-w-1/4">corporate</h1>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex flex-wrap justify-center sm:justify-start sm:gap-4">
                         <div className="flex flex-col  gap-4">
                             <div className="w-[16rem] h-[18rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
@@ -202,7 +202,7 @@ export default function Creatives() {
                             <div className="w-[16rem] h-[15rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
                             </div>
-
+                           
                         </div>
                         <div className="flex flex-col gap-4">
                             <div className="w-[16rem] h-[10rem]">
@@ -255,7 +255,7 @@ export default function Creatives() {
                 <div className="p-8 flex flex-col gap-8">
                     <div className={`${italiana.className} text-7xl justify-end flex`}><h1 id="bts" className="text-end min-w-1/4">bts</h1>
                     </div>
-                    <div className="flex gap-8">
+                    <div className="flex flex-wrap justify-center sm:justify-start sm:gap-4">
                         <div className="flex flex-col  gap-4">
                             <div className="w-[16rem] h-[18rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
@@ -269,7 +269,7 @@ export default function Creatives() {
                             <div className="w-[16rem] h-[15rem]">
                                 <Image className="w-full h-full object-fill " src={'/images/creatives/imagecopy.png'} width={100} height={250} alt="individual" />
                             </div>
-
+                           
                         </div>
                         <div className="flex flex-col gap-4">
                             <div className="w-[16rem] h-[10rem]">

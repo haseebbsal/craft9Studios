@@ -9,10 +9,10 @@ export default function Home() {
     <>
       <div className="flex flex-col gap-28">
         <div className="h-[100vh] relative z-[4000] bg-black">
-          <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/>
-          {/* <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
-            <source src={`/videos/Banner Video.mp4`} type="video/mp4" />
-          </video> */}
+          {/* <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/> */}
+          <video id='video' className="w-full h-full object-cover  " autoPlay muted playsInline loop>
+            <source src={`/videos/video-banner.mp4`} type="video/mp4" />
+          </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>
             <p>for tomorrow</p>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="flex gap-16 flex-wrap justify-center">
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/videos.png`} width={200} height={200} alt="branding"/></div>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/branding.png`} width={200} height={200} alt="branding"/></div>
             <p className="text-center">Branding</p>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">

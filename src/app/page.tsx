@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col gap-28">
-        <div className="h-[100vh] relative z-[4000] bg-black">
+        <div className="h-[100vh] relative z-[4444000] bg-black">
           {/* <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/> */}
           <video id='video' className="w-full h-full object-cover  " autoPlay muted playsInline loop>
             <source src={`/videos/video-banner.mp4`} type="video/mp4" />

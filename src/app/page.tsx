@@ -28,12 +28,12 @@ export default function Home() {
             <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/Website Banner.png`} width={200} height={200} alt="branding" /></div>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/videos.png`} width={200} height={200} alt="branding" /></div>
-            <p className="text-center">Branding</p>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/Production.png`} width={200} height={200} alt="branding" /></div>
+            <p className="text-center">Production</p>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <p className="text-center">Branding</p>
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/products.png`} width={200} height={200} alt="branding" /></div>
+            <p className="text-center">Strategy</p>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/Strategy.png`} width={200} height={200} alt="branding" /></div>
           </div>
         </div>
         <div>

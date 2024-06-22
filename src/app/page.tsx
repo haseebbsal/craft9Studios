@@ -43,8 +43,8 @@ export default function Home() {
           </div>
         </div>
         <h1 className={`${italiana.className} text-center text-6xl` }>what we can help you with</h1>
-        <div className="h-[30rem] relative" >
-          <Image className="w-full h-full object-cover absolute " src={`/images/home/branding-identity.jpg`} alt="brand-identity" width={300} height={300} />
+        <div className="h-[38rem] relative" >
+          <Image className="w-full h-full  absolute " src={`/images/home/Product.png`} alt="brand-identity" width={300} height={300} />
           <div className="flex flex-col gap-4 z-3 absolute right-[8rem] top-[8rem]">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">

@@ -17,16 +17,16 @@ export default function Loader() {
                     loaderRef.current!.style.display='none'
                     document.getElementById('content')!.style.display='block'
                 }
-                loaderRef.current!.style.transform = `translateX(${count}%)`
-                count+=1
+                // loaderRef.current!.style.transform = `translateX(${count}%)`
+                // count+=1
             },5)
         },2000)
     },[])
     return (
         <>
             <div ref={loaderRef} className=" loader absolute flex z-[2222222222222222] justify-center items-center bg-black w-full h-full top-0">
-                <div className="h-1/2 w-1/2 flex justify-center">
-                    <Image className="w-1/2 h-full animate-bounce" priority src={'/images/loader/loader.jpg'} alt="loader" width={300} height={400}/>
+                <div className="h-auto w-auto flex justify-center">
+                    <Image className=" animate-bounce" priority src={'/images/loader/loader.jpg'} alt="loader" width={300} height={400}/>
                 </div>
             </div>
         </>

@@ -17,8 +17,8 @@ export default function Loader() {
                     loaderRef.current!.style.display='none'
                     document.getElementById('content')!.style.display='block'
                 }
-                // loaderRef.current!.style.transform = `translateX(${count}%)`
-                // count+=1
+                loaderRef.current!.style.transform = `translateX(${count}%)`
+                count+=1
             },5)
         },2000)
     },[])

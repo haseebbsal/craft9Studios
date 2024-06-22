@@ -21,8 +21,8 @@ export default function Navbar() {
                         <div className={`${dropOption=='1'?'flex':'hidden'} flex-col absolute gap-2 bg-[#282828] p-4 top-[2.5rem] rounded-md `}>
                             <Link className="text-sm" href={'/branding'}>branding</Link>
                             <Link className="text-sm" href={'/creatives'}>creatives</Link>
-                            <Link className="text-sm" href={'/video'}>video</Link>
-                            <Link className="text-sm" href={'/products'}>products</Link>
+                            <Link className="text-sm" href={'/production'}>production</Link>
+                            <Link className="text-sm" href={'/strategy'}>strategy</Link>
                         </div>
                     </div>
                     <Link className={`${pathname=='/about'?'text-blue-400':'text-white'}`} href={'/about'}>about</Link>

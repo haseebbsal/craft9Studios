@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <h1 className={`${italiana.className} text-center text-6xl` }>what we can help you with</h1>
-        <div className=" relative " style={{ background:'url("/images/home/background-banner.png")'}} >
+        <div className=" relative " style={{ background:'url("/images/home/background-banner.png")',backgroundSize:'cover'}} >
           <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")' }} >
+        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
           <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")' }} >
+        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
           <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>

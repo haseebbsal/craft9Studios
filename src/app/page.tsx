@@ -43,9 +43,9 @@ export default function Home() {
           </div>
         </div>
         <h1 className={`${italiana.className} text-center text-6xl` }>what we can help you with</h1>
-        <div className="h-[20rem] sm:h-[30rem] relative" style={{ background:'url("/images/home/Banner 1 new.png")',backgroundRepeat:'repeat-x',backgroundSize:'contain'}} >
-          {/* <Image className="  w-full h-full  absolute " src={`/images/home/Banner 1 new.png`} alt="brand-identity" width={300} height={300} /> */}
-          <div className="flex flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
+        <div className="h-[20rem] sm:h-[30rem] relative " style={{ background:'url("/images/home/background-banner.png")',backgroundRepeat:'repeat-x',backgroundSize:'contain'}} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+          <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">
               <p>Brand strategy</p>
@@ -56,9 +56,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[20rem] sm:h-[30rem] relative" style={{ background: 'url("/images/home/Banner 1 new.png")', backgroundRepeat: 'repeat-x', backgroundSize: 'contain' }} >
-          {/* <Image className="  w-full h-full  absolute " src={`/images/home/Banner 1 new.png`} alt="brand-identity" width={300} height={300} /> */}
-          <div className="flex flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-16">
+        <div className="h-[20rem] sm:h-[30rem] relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundRepeat: 'repeat-x', backgroundSize: 'contain' }} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+          <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">
               <p>Brand strategy</p>
@@ -69,9 +69,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[20rem] sm:h-[30rem] relative" style={{ background: 'url("/images/home/Banner 1 new.png")', backgroundRepeat: 'repeat-x', backgroundSize: 'contain' }} >
-          {/* <Image className="  w-full h-full  absolute " src={`/images/home/Banner 1 new.png`} alt="brand-identity" width={300} height={300} /> */}
-          <div className="flex flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-16">
+        <div className="h-[20rem] sm:h-[30rem] relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundRepeat: 'repeat-x', backgroundSize: 'contain' }} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+          <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">
               <p>Brand strategy</p>

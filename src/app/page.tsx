@@ -7,11 +7,11 @@ const italiana=Italiana({
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-16 sm:gap-28">
-        <div className="h-[100vh] relative z-[4444000] bg-black">
+      <div className="flex flex-col gap-16 sm:gap-28  md:pt-[0rem] pt-[5.5rem]">
+        <div className=" relative z-[4444000] bg-black">
           {/* <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/> */}
-          <video id='video' className="w-full h-full object-cover  " autoPlay muted playsInline loop>
-            <source src={`/videos/video-banner.mp4`} type="video/mp4" />
+          <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
+            <source src={`/videos/Copy of Website Banner (1).mp4`} type="video/mp4" />
           </video>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>
@@ -43,8 +43,8 @@ export default function Home() {
           </div>
         </div>
         <h1 className={`${italiana.className} text-center text-6xl` }>what we can help you with</h1>
-        <div className=" relative " style={{ background:'url("/images/home/background-banner.png")',backgroundSize:'cover'}} >
-          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+        <div className=" relative h-[15rem] sm:h-[35rem]" style={{ background:'url("/images/home/background-banner.png")',backgroundSize:'cover'}} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product123.svg`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">
@@ -56,8 +56,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
-          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+        <div className=" relative h-[15rem] sm:h-[35rem]" style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product123.svg`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">
@@ -69,8 +69,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" relative " style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
-          <Image className="  w-full h-full  object-contain " src={`/images/home/product12.png`} alt="brand-identity" width={300} height={300} />
+        <div className=" relative h-[15rem] sm:h-[35rem]" style={{ background: 'url("/images/home/background-banner.png")', backgroundSize: 'cover' }} >
+          <Image className="  w-full h-full  object-contain " src={`/images/home/product123.svg`} alt="brand-identity" width={300} height={300} />
           <div className="flex absolute top-8 right-8 flex-col gap-4 z-3 items-end mr-8 mt-4 sm:mt-4 sm:mt-16">
             <p>BRANDING & IDENTITY</p>
             <div className="flex flex-col gap-2">

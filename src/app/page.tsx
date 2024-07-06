@@ -1,3 +1,4 @@
+import Video from "@/components/home/video";
 import { Italiana } from "next/font/google";
 import Image from "next/image";
 const italiana=Italiana({
@@ -10,9 +11,7 @@ export default function Home() {
       <div className="flex flex-col gap-16 sm:gap-28  md:pt-[0rem] pt-[5.5rem]">
         <div className=" relative z-[4444000] bg-black">
           {/* <Image priority className="w-full h-full object-cover" src={'/videos/Banner Gif.gif'} alt="banner" width={800} height={1100}/> */}
-          <video id='video' className="w-full h-full object-contain  " autoPlay muted playsInline loop>
-            <source src={`/videos/Copy of Website Banner (1).mp4`} type="video/mp4" />
-          </video>
+          <Video/>
           {/* <div className={`absolute bottom-8 left-[39%] z-4 text-white text-6xl ${italiana.className}`}>
             <p>of tomorrow</p>
             <p>for tomorrow</p>
@@ -20,7 +19,7 @@ export default function Home() {
         </div>
         <div className="flex gap-16 flex-wrap justify-center">
           <div className="flex flex-col gap-2 text-white text-3xl">
-            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/branding.png`} width={200} height={200} alt="branding"/></div>
+            <div className="h-[25rem]"><Image className="w-full h-full" src={`/images/home/Creatives (1).png`} width={200} height={200} alt="branding"/></div>
             <p className="text-center">Branding</p>
           </div>
           <div className="flex flex-col gap-2 text-white text-3xl">
